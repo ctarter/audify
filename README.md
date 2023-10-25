@@ -12,6 +12,7 @@ Transcription: Leverages OpenAI Whisper to provide accurate transcriptions of au
 
 ### Integrated Technologies
 [DeepFilterNet](https://github.com/Rikorose/DeepFilterNet): A deep learning model for audio enhancement.
+
 [OpenAI Whisper](https://github.com/openai/whisper): An automatic speech recognition (ASR) system by OpenAI.
 
 ### Author
@@ -32,13 +33,13 @@ Corey Tarter
 3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
-
+   ```
    Need a Pytorch-specific alternative with GPU support? Check out [torch-audiomentations](https://github.com/asteroid-team/torch-audiomentations)!
 
 ## Usage
    ```bash
    python audify.py
-
+   ```
 ### Example
   ```bash
   Audio Source:
@@ -82,7 +83,7 @@ Corey Tarter
   How many keywords to generate? 10
 
   Choose Folder: /path/to/keywords/folder
-
+```
 ## License
 
 Audify is free and open source! All code in this repository is dual-licensed under either:
